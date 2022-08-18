@@ -4,11 +4,26 @@
     <string name="action_settings">Settings</string>
 
 
-    <string name="notification_title">Udacity: Android Kotlin Nanodegree </string>
-    <string name="notification_description">The Project 3 repository is downloaded</string>
-    <string name="notification_button">See changes</string>
+    <!--    Define strings for Detail Activity-->
+    <string name="ok_button_text">OK</string>
+    <string name="file_name_label">File Name:</string>
+    <string name="status_label">Status:</string>
+    <string name="error_label">Error message:</string>
 
+    <!--    Define strings for notification-->
+    <string name="notification_title">LoadApp download request </string>
+    <string name="notification_button">View download details</string>
+    <string name="notification_channel_id">download</string>
+    <string name="notification_channel_name">Download complete</string>
+    <string name="notification_channel_description">Download completed</string>
+    <string name="download_request">downloadFile</string>
+    <string name="error_message">error</string>
+    <string name="download_status">status</string>
+    <string name="id">id</string>
+    <string name="notification_description">The Project 3 repository is downloaded</string>
     <string name="button_name">Click me</string>
     <string name="button_loading">We are loading </string>
     <string name="title_activity_detail">DetailActivity</string>
+
+
 </resources>

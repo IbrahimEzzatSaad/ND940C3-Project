@@ -1,11 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.motion.widget.MotionLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    app:layoutDescription="@xml/content_detail_scene"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".DetailActivity"
     tools:showIn="@layout/activity_detail">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/filename_label_textview"
+        style="@style/label_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/file_name_label"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <TextView
+        android:id="@+id/filename_textview"
+        style="@style/label_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        tools:text="Retrofit library for downloading from the internet etc etc " />
+
+    <TextView
+        android:id="@+id/status_label_textview"
+        style="@style/label_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/status_label"
+        tools:text="Status" />
+
+    <TextView
+        android:id="@+id/status_textview"
+        style="@style/label_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="328dp"
+        tools:text="Success" />
+
+    <TextView
+        android:id="@+id/error_label_textview"
+        style="@style/label_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/error_label"
+        android:visibility="invisible"
+        tools:text="Error message" />
+
+    <TextView
+        android:id="@+id/error_textview"
+        style="@style/label_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:visibility="invisible"
+        tools:text="File not found" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
