@@ -158,7 +158,7 @@ class MainActivity : AppCompatActivity() {
         private const val UDACITY_URL =
             "https://github.com/udacity/nd940-c3-advanced-android-programming-project-starter/archive/master.zip"
         private const val RETROFIT_URL =
-            "https://freeiconshop.com/wp-content/uploads/edd/image-outline-filled.png"
+            "https://github.com/bumptech/glide"
         private const val CHANNEL_ID = "LoadMeUp"
         private const val TAG = "MainActivity"
     }
